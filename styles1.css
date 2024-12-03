@@ -1,0 +1,173 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Header Section */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5a4eb1;
+}
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.nav li a {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.icons img {
+    width: 20px;
+    margin-left: 1rem;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+    background-color: #eef1f5;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+}
+
+.hero-content button {
+    background-color: #5a4eb1;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem;
+    text-align: center;
+    background: #fff;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.product img {
+    width: 100%;
+    max-width: 200px;
+    margin-bottom: 1rem;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 1rem;
+    background: #5a4eb1;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+/* Services Section */
+.services {
+    padding: 2rem;
+    background-color: #eef1f5;
+    text-align: center;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background: #fff;
+    text-align: center;
+}
+
+.contact form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    max-width: 400px;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Footer Section */
+.footer {
+    text-align: center;
+    padding: 1rem 0;
+    background-color: #5a4eb1;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.footer li a {
+    color: #fff;
+    font-size: 0.9rem;
+}
